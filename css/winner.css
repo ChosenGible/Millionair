@@ -1,0 +1,38 @@
+.content{
+    flex-direction: column;
+    align-items:center;
+    color: #F2F2F2;
+
+}
+
+.content-block{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #0A0EF0;
+    color: #F2F2F2;
+    height:auto;
+    width:50%;
+}
+
+.content-header{
+    font-size: 60px;
+}
+
+.content-image{
+    width: auto;
+    height: 100%;
+}
+
+.pagination > li > a {
+    background-color: #FFE119;
+    color: black;
+    border: solid 1px #0A0EF0;
+}
+
+.pagination > li > a:hover,
+.pagination > li > a:focus
+{
+    background-color: #B29B00;
+    color: black;
+}
